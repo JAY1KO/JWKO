@@ -1,0 +1,68 @@
+body {
+    background-color: #80a3ea; /* 배경색을 아주 연한 회색으로 변경 */
+    font-family: 'Georgia', serif; /* 글꼴을 Georgia로 변경 */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 50px; /* 제목 글씨 크기를 48픽셀로 변경 */
+}
+
+p {
+    color: #000000;
+    text-align: center;
+    font-size: px; /* 문단 글씨 크기를 18픽셀로 변경 */
+}
+
+img {
+    display: block; /* 이미지를 블록 요소로 변경 */
+    margin-left: auto; /* 왼쪽 여백을 자동으로 채움 */
+    margin-right: auto; /* 오른쪽 여백을 자동으로 채움 */
+    width: 60%; /* 이미지의 가로 크기를 페이지의 60%로 설정 */
+}
+
+main {
+    width: 80%; /* main 영역의 너비를 80%로 설정 */
+    margin: 0 auto; /* 좌우 여백을 자동으로 채워 가운데 정렬 */
+}
+
+img {
+    /* 기존에 있던 img CSS 코드를 아래와 같이 수정하세요 */
+    width: 70%; /* 이미지가 main 영역의 100%를 차지하도록 함 */
+    height: auto; /* 이미지의 비율을 유지하며 높이 자동 조절 */
+    margin-bottom: 20px; /* 이미지 아래에 20px의 여백 추가 */
+}
+a {
+    color: #d85de3; /* 링크 글씨 색상을 파란색으로 변경 */
+    text-decoration: none; /* 밑줄 제거 */
+    font-weight: bold; /* 글씨를 굵게 */
+}
+
+a:hover {
+    text-decoration: underline; /* 마우스를 올리면 밑줄이 다시 나타나게 함 */
+}
+
+.photo-gallery {
+    display: flex;          /* Flexbox 기능을 사용하겠다고 선언 */
+    justify-content: center;  /* 내부 요소들을 가운데 정렬 */
+    gap: 15px;              /* 각 요소 사이에 15px의 간격 추가 */
+    margin-bottom: 20px;
+}
+
+.photo-gallery img {
+    width: 40%;             /* 각 이미지의 너비를 30%로 설정 */
+    height: auto;           /* 이미지 비율을 유지하며 높이 자동 조절 */
+}
+
+/* Instagram 아이콘 이미지에 대한 스타일 */
+.instagram-icon {
+    width: 40px; /* 아이콘 크기를 40px로 설정 */
+    height: 40px;
+}
+
+/* 링크를 감싼 <a> 태그를 가운데 정렬 */
+.social-link {
+    display: block; /* 링크를 블록 요소로 변경 */
+    text-align: center; /* 가운데 정렬 */
+}
