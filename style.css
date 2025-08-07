@@ -66,27 +66,26 @@ a:hover {
     display: block; /* 링크를 블록 요소로 변경 */
     text-align: center; /* 가운데 정렬 */
 }
-
 nav {
-    background-color: #333; /* 배경색을 어두운 회색으로 설정 */
-    padding: 10px 0; /* 위아래 여백을 10px로 설정 */
-    text-align: center; /* 메뉴 항목들을 가운데 정렬 */
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
-    list-style: none; /* 목록의 점(•) 제거 */
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Flexbox를 사용해 항목들을 가로로 나란히 배치 */
-    justify-content: center; /* 가운데 정렬 */
+    display: flex;
+    justify-content: center;
 }
 
 nav li a {
-    color: white; /* 글씨 색상을 흰색으로 설정 */
-    text-decoration: none; /* 밑줄 제거 */
-    padding: 10px 20px; /* 각 메뉴 항목의 패딩 설정 */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 nav li a:hover {
-    background-color: #555; /* 마우스를 올리면 배경색 변경 */
+    background-color: #555;
 }
