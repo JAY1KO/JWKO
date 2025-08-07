@@ -85,3 +85,22 @@ a:hover {
         width: 80%; /* 이미지 너비를 화면의 80%로 조절 */
     }
 }
+
+/* 스마트폰 화면 (화면 너비가 768px 이하일 때 적용) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px; /* 제목 글씨 크기를 더 작게 */
+    }
+
+    p {
+        font-size: 14px; /* 본문 글씨 크기를 더 작게 */
+    }
+
+    .photo-gallery {
+        flex-direction: column; /* 사진을 가로가 아닌 세로로 정렬 */
+    }
+
+    .photo-gallery img {
+        width: 80%; /* 이미지 너비를 화면의 80%로 조절 */
+    }
+}
