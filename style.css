@@ -67,40 +67,26 @@ a:hover {
     text-align: center; /* 가운데 정렬 */
 }
 
-/* 스마트폰 화면 (화면 너비가 768px 이하일 때 적용) */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 28px; /* 제목 글씨 크기를 더 작게 */
-    }
-
-    p {
-        font-size: 14px; /* 본문 글씨 크기를 더 작게 */
-    }
-
-    .photo-gallery {
-        flex-direction: column; /* 사진을 가로가 아닌 세로로 정렬 */
-    }
-
-    .photo-gallery img {
-        width: 80%; /* 이미지 너비를 화면의 80%로 조절 */
-    }
+nav {
+    background-color: #333; /* 배경색을 어두운 회색으로 설정 */
+    padding: 10px 0; /* 위아래 여백을 10px로 설정 */
+    text-align: center; /* 메뉴 항목들을 가운데 정렬 */
 }
 
-/* 스마트폰 화면 (화면 너비가 768px 이하일 때 적용) */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 28px; /* 제목 글씨 크기를 더 작게 */
-    }
+nav ul {
+    list-style: none; /* 목록의 점(•) 제거 */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox를 사용해 항목들을 가로로 나란히 배치 */
+    justify-content: center; /* 가운데 정렬 */
+}
 
-    p {
-        font-size: 14px; /* 본문 글씨 크기를 더 작게 */
-    }
+nav li a {
+    color: white; /* 글씨 색상을 흰색으로 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+    padding: 10px 20px; /* 각 메뉴 항목의 패딩 설정 */
+}
 
-    .photo-gallery {
-        flex-direction: column; /* 사진을 가로가 아닌 세로로 정렬 */
-    }
-
-    .photo-gallery img {
-        width: 80%; /* 이미지 너비를 화면의 80%로 조절 */
-    }
+nav li a:hover {
+    background-color: #555; /* 마우스를 올리면 배경색 변경 */
 }
